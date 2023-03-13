@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-family: fantasy;
+}
+
+.calculator_body {
+  width: 70%;
+  margin: 50px auto;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.display input {
+  width: 100%;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1.5rem;
+}
+
+.display {
+  margin-bottom: 15px;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px 20px 0px;
+  width: 100%;
+  gap: 1.3rem;
+  flex-wrap: wrap;
+}
+
+.key {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.key:hover {
+  border: 2px solid lightgreen;
+}
+
+.btn-orenge {
+  background: #FFB227;
+  color: white;
+}
+
+.btn-color {
+  background: black;
+  color: white;
+}
+
+.btn-equal {
+  background: seagreen;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-clear {
+  background: orangered;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-clear:hover {
+  border: 2px solid lightgreen;
+
+}
+
+.btn-equal:hover {
+  border: 2px solid lightgreen;
+
+}
